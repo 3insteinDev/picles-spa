@@ -7,11 +7,8 @@ export function App() {
 
   return (
 	<>
-	<Button onClick = {()=> setCount(count + 1)}>Quero adotar</Button>
 	<Button variant = {ButtonVariant.Default} onClick = {()=> setCount(count + 1)}>Tenho um abrigo</Button>
 	<Button variant={ButtonVariant.Outlined} onClick = {()=> setCount(count + 1)}>Tenho um abrigo</Button>
-	<Button variant={ButtonVariant.Disabled} onClick = {()=> setCount(count + 1)}>Tenho um abrigo</Button>
-	<Button variant={ButtonVariant.Text} onClick = {()=> setCount(count + 1)}>Tenho um abrigo</Button>
 	</>
   )
 }
