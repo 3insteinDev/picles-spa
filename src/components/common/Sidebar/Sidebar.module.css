@@ -5,7 +5,8 @@
   flex-shrink: 1;
   flex-direction: column;
   height: 100vh;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  background-color:rgb(123 223 150);
   padding: var(--spacing-xxl) var(--spacing-xl);
   gap: var(--spacing-lg);
 }
